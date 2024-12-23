@@ -3506,7 +3506,7 @@ out:
 EXPORT_SYMBOL_GPL(kmsg_dump_get_buffer);
 
 #if IS_ENABLED(CONFIG_OPLUS_FEATURE_UBOOT_LOG)
-#include <soc/oplus/system/uboot_utils.h>
+#include <linux/uboot_utils.h>
 bool back_kmsg_dump_get_buffer(struct kmsg_dumper *dumper, bool syslog,
 			  char *buf, size_t size, size_t *len)
 {

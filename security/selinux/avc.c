@@ -31,7 +31,7 @@
 #include "avc_ss.h"
 #include "classmap.h"
 #ifdef OPLUS_FEATURE_SELINUX_CONTROL_LOG
-#include <soc/oplus/system/proc.h>
+#include <linux/proc.h>
 #endif /* OPLUS_FEATURE_SELINUX_CONTROL_LOG */
 
 #define AVC_CACHE_SLOTS			512

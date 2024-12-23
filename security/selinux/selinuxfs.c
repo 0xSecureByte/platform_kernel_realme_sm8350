@@ -42,7 +42,7 @@
 #include "conditional.h"
 
 #ifdef OPLUS_FEATURE_SELINUX_CONTROL_LOG
-#include <soc/oplus/system/proc.h>
+#include <linux/proc.h>
 #endif /* OPLUS_FEATURE_SELINUX_CONTROL_LOG */
 
 enum sel_inos {

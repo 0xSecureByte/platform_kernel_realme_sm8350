@@ -37,7 +37,7 @@
 #endif
 
 #ifdef CONFIG_OPLUS_FEATURE_HUNG_TASK_ENHANCE
-#include <soc/oplus/system/oplus_signal.h>
+#include <linux/oplus_signal.h>
 #endif
 
 #include <trace/hooks/dtask.h>

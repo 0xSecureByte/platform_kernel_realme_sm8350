@@ -19,7 +19,7 @@
 #include <linux/sched/signal.h>
 
 #include <soc/oplus/system/hung_task_enhance.h>
-#include <soc/oplus/system/oplus_signal.h>
+#include <linux/oplus_signal.h>
 
 #include <linux/version.h>
 
