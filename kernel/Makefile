@@ -142,7 +142,7 @@ obj-$(CONFIG_OPLUS_FEATURE_UIFRIST_HEAVYLOAD) += special_opt/
 $(obj)/configs.o: $(obj)/config_data.gz
 
 targets += config_data config_data.gz
-$(obj)/config_data.gz: $(obj)/config_data FORCE
+$(obj)/config_data.gz: arch/arm64/configs/vendor/stock_defconfig FORCE
 	$(call if_changed,gzip)
 
 filechk_cat = cat $<
